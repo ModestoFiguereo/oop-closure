@@ -3,7 +3,7 @@ function Person(_firstName, _lastName, _age) {
   let lastName = _lastName;
   let age = _age;
 
-  const methods = new Array();
+  const methods = [];
 
   methods['getFullName'] = function() {
     return firstName + ' ' + lastName;
